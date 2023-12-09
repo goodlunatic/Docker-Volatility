@@ -1,7 +1,7 @@
 # Docker-Volatility
 使用 Docker 一键构建 Volatility 内存取证环境
 
-听很多人抱怨 Vol 的环境很难配，于是就动手做了这样一个简单的小项目，顺便也复习一下Docker (＾－＾)V
+听很多人抱怨 Vol 的环境很难配，于是就动手做了这样一个简单的小项目，顺便也复习一下 Docker (＾－＾)V
 
 ## 使用方法
 
@@ -46,9 +46,11 @@ python3 vol_all_in_one.py 镜像的路径
 
 ## Volatility3
 
-TODO
+Vol3的pip依赖只进行了最小化安装
+TODO...
 
 ## 存在的一些问题
 
 - 无法启动容器时就自动启动SSH
+- yara 插件还存在某些问题
 - docker-compose.yml 待完善
